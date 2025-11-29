@@ -130,7 +130,7 @@ def write_text_report(error_summary: dict, output_folder: Path):
 # Streamlit UI
 # ----------------------------
 st.set_page_config(page_title="English Spell Checker", layout="wide")
-st.title("✨ English Spell Checker (Streamlit Version)")
+st.title("✨ English Spell Checker")
 
 ignore_short = st.sidebar.checkbox("🔠 Ignore short words (≤2 letters)", True)
 ignore_upper = st.sidebar.checkbox("🧢 Ignore ALL CAPS words", True)
